@@ -2,7 +2,7 @@
 
 module.exports = {
 
-  development: {
+  production: {
     client: 'sqlite3',
     connection: {
       filename: './src/database/db.sqlite'
@@ -40,7 +40,7 @@ module.exports = {
     }
   },
 
-  production: {
+  ffffff: {
     client: 'postgresql',
     connection: {
       database: 'my_db',
